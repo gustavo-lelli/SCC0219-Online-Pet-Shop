@@ -1,13 +1,13 @@
-![AZULÃO PETSHOP](https://github.com/luizfernandorabelo/Projeto-Web---Loja-Online/blob/main/img/Logo%20Azulao.png)
+![AZULÃO PETSHOP](https://github.com/gustavo-lelli/SCC0219-Online-Pet-Shop/blob/main/img/Logo%20Azulao.png)
 
-# Projeto Web - AZULÃO PETSHOP
+# Web Projects - AZULÃO PETSHOP
 
 <p align="justify">
-    Projeto da disciplina Introdução ao Desenvolvimento Web - SCC0219.<br>
-    Foi decidido pelo grupo que o website a ser desenvolvido seria um petshop virtual.
+    Project for the Web Development Introduction course - SCC0219.<br>
+    The group decided that the website to be developed would be a virtual pet shop.
 </p><br>
 
-## Autores:
+## Authors:
 - Felipe Cadavez Oliveira - 11208558
 
 - Gustavo Lelli Guirao - 11918182
@@ -15,145 +15,145 @@
 - Luiz Fernando Rabelo - 11796893
 <br><br><br>
 
-## 1. Requisitos
+## 1. Requirements
 
 <p align="justify">
-    O sistema deve ter 2 tipos de usuários: clientes e administradores.<br>
-    Os administradores são responsáveis por registrar/gerenciar clientes, produtos e serviços fornecidos. O aplicativo já vem com uma conta "admin" com senha "admin".<br>
-    Clientes são usuários que acessam o sistema para comprar produtos e/ou serviços.<br>
-    O registro de cada cliente contém nome, CPF, gênero, telefone e e-mail.<br>
-    Os registros de produto incluem nome, id, foto, descrição, preço, quantidade em estoque.<br>
-    Os registros de serviços incluem nome, id, foto, descrição, preço, agenda, hora de funcionamento.<br>
-    Venda de produtos: Os produtos e serviços são selecionados, são incluídos em um carrinho e sua quantidade escolhida. Os produtos são comprados usando um número de cartão de crédito (qualquer número é aceito pelo sistema). A quantidade de produto vendida é subtraída da quantidade em estoque. Os carrinhos são esvaziados somente quando o pagamento é efetuado ou quando os clientes removem todos os produtos.<br>
-    Gerenciamento de produto: os administradores podem criar/atualizar/ler/excluir novos produtos. Por exemplo, eles podem alterar a quantidade em estoque.<br>
-    Gerenciamento de serviços: os serviços agem como produtos com a diferença que a “quantidade em estoque” de um serviço é na verdade a quantidade de vezes que esse serviço pode ser solicitado em um dia, essa quantidade pode ser alterada porém receberá um “refresh” para a quantidade diária inicial toda vez que um dia passar. O serviço também possui um campo extra de horário de funcionamento impedindo que um serviço seja solicitado fora do horário de funcionamento da loja.
-    O sistema é responsivo e visa uma boa acessibilidade e usabilidade para seus usuários.
+    The system should have 2 types of users: clients and administrators.<br>
+    Administrators are responsible for registering/managing clients, products, and provided services. The application comes with an "admin" account with the password "admin".<br>
+    Clients are users who access the system to buy products and/or services.<br>
+    The registration for each client includes name, CPF, gender, phone, and email.<br>
+    Product records include name, ID, photo, description, price, and stock quantity.<br>
+    Service records include name, ID, photo, description, price, schedule, and operating hours.<br>
+    Product Sales: Products and services are selected, added to a cart, and their quantity chosen. Products are purchased using a credit card number (any number is accepted by the system). The quantity of sold products is subtracted from the stock quantity. Carts are emptied only when payment is made or when customers remove all products.<br>
+    Product Management: Administrators can create/update/read/delete new products. For example, they can change the stock quantity.<br>
+    Service Management: Services act like products with the difference that the "stock quantity" of a service is actually the number of times that service can be requested in a day. This quantity can be changed, but it will be reset to the initial daily quantity every time a day passes. The service also has an extra field for operating hours, preventing a service from being requested outside the store's operating hours.
+    The system is responsive and aims for good accessibility and usability for its users.
 </p><br><br>
 
-## 2. Descrição do Projeto
+## 2. Project Description
 
 <p align="justify">
-    Nosso site é um petshop virtual, que vende todo tipo de produtos destinados aos cuidados dos pets, o que inclui higiene, lazer, alimentação e outros cuidados. Além de produtos, também serão oferecidos serviços, como banhos, tosas, consultas veterinárias, etc.
+    Our website is a virtual pet shop that sells all kinds of products for pet care, including hygiene, leisure, food, and other needs. In addition to products, services will also be offered, such as baths, grooming, veterinary consultations, etc.
 </p>
 
-### Diagrama de navegação:
+### Navegation Diagrams:
 
 ![Diagrama de Navegação](./mockups/Navegacao.png)
 
 <br><br>
 
-As imagens do *mockup* estão na pasta ```/mockups.``` Também pode ser acessado nos links abaixo:
+The images of the *mockup* are in the folder ```/mockups.``` They can also be accessed through the links below:
 
-- [Homepage](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/Home.png)
+- [Homepage](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/Home.png)
 
-- [Lista de Produtos por Categoria](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/ListaPorCategoria.png)
+- [List of Products by Category](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/ListaPorCategoria.png)
 
-- [Produto](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/Produto.png)
+- [Product](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/Produto.png)
 
-- [Serviço](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/Servico.png)
+- [Service](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/Servico.png)
 
-- [Login](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/Login.png)
+- [Login](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/Login.png)
 
-- [Criar conta](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/CriarConta.png)
+- [Create Account](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/CriarConta.png)
 
-- [Carrinho](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/Carrinho.png)
+- [Cart](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/Carrinho.png)
 
-- [Finalizar Compra](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/FinalizarCompra.png)
+- [Complete Purchase](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/FinalizarCompra.png)
 
-- [Edição de Informações pessoais (Admin)](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/EditarInfoPessoaisAdmin.png)
+- [Personal Information Editing (Admin)](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/EditarInfoPessoaisAdmin.png)
 
-- [Edição de Informações pessoais (Cliente)](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/EditarInfoPessoaisCliente.png)
+- [Personal Information Editing (Client)](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/EditarInfoPessoaisCliente.png)
 
-- [Edição de Endereço (Cliente)](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/EditarEnderecoCliente.png)
+- [Address Editing (Client)](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/EditarEnderecoCliente.png)
 
-- [Edição de Pagamento (Cliente)](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/EditarPagamentoCliente.png)
+- [Payment Editing (Client)](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/EditarPagamentoCliente.png)
 
-- [Gerência de Produtos](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/GerenciarProdutos.png)
+- [Product Management](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/GerenciarProdutos.png)
 
-- [Gerência de Usuários](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/GerenciarUsuarios.png)
+- [User Management](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/GerenciarUsuarios.png)
 
-- [Gerência de Produto Específico](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/GerenciarProduto.png)
+- [Specific Product Management](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/GerenciarProduto.png)
 
-- [Gerência de Usuário Específico](https://raw.githubusercontent.com/luizfernandorabelo/Projeto-Web---Loja-Online/main/mockups/GerenciarUsuario.png)
+- [Specific User Management](https://raw.githubusercontent.com/gustavo-lelli/SCC0219-Online-Pet-Shop/main/mockups/GerenciarUsuario.png)
 
 <br><br>
 
-### Funcionalidades 
+### Functionalities
 
-As funcionalidades visadas pelo nosso site são:
-- Login com email e senha na plataforma, com opção de criar uma nova conta, ou esqueceu a senha.
-- Visualização das informações do cliente, com opção de alterar informaçoes pessoais, de pagamento ou de endereço.
-- Visualização da página de administrador, com opção de administrar os produtos e usuários da loja.
-- Inserção de sserviços pelo administrador, com agenda, hora de funcionamente e descrição do serviço
-- Acesso à homepage, com visualização de alguns produtos selecionados pela loja.
-- Visualização de um produto, com seu nome, descrição, preço e botão para adicionar ao carrinho.
-- Visualização de um serviço, com seu nome, descrição, preço, agendamento, opção de buscar o animal em casa ou levar o animal no petshop (obs essa função está disponível apenas para CEPs de São Carlos)
-- Comentário e avaliação de um produto/serviço
-- Acesso ao carrinho de compras, com opção de mudar a quantidade de itens, conferir o preço total com o frete e finalizar compra.
-- Opção de inserir informações do cartão de crédito para efetuar o pagamento de maneira mais rápida.
-- Opção de alterar o endereço de entrega.
+The functionalities aimed by our site are:
+- Login with email and password, with the option to create a new account or reset the password.
+- Viewing client information, with the option to change personal information, payment details, or address.
+- Viewing the admin page, with the option to manage the store's products and users.
+- Inserting services by the admin, with schedule, operating hours, and service description.
+- Access to the homepage, with a display of selected products by the store.
+- Viewing a product, with its name, description, price, and button to add to cart.
+- Viewing a service, with its name, description, price, scheduling, and option to pick up the pet at home or bring it to the pet shop (note that this function is only available for São Carlos ZIP codes).
+- Commenting and reviewing a product/service.
+- Access to the shopping cart, with the option to change item quantities, check the total price with shipping, and complete the purchase.
+- Option to enter credit card information for quicker payment.
+- Option to change the delivery address.
 <br><br>
 
-### Informações armazenaadas no servidor
+### Informations Stored in Server
 
-**Contas:**
+**Accounts:**
 
 - Email
-- Senha
-- Nome
+- Password
+- Name
 - CPF
-- Gênero
-- É_Adm?
+- Gender
+- Is_Admin?
 <br><br>
 
-**Endereços:**
+**Addresses:**
 
-- Conta associada
-- CEP
-- Número
-- Complemento
+- Associated account
+- ZIP Code
+- Number
+- Complement
 <br><br>
 
-**Cartão Salvos:**
+**Saved Cards:**
 
-- CPF do titular
-- Número do cartão
-- Nome do titular
+- Cardholder's CPF
+- Card number
+- Cardholder's name
 <br><br>
 
-**Produtos:**
+**Products:**
 
-- Nome
-- Descrição
-- Preço
-- Id
-- Foto
-- Quantidade em estoque
+- Name
+- Description
+- Price
+- ID
+- Photo
+- Stock quantity
 <br><br>
 
-**Serviços:**
+**Services:**
 
-- Nome
-- Id
-- Foto
-- Agenda
-- Horário de funcionamento
+- Name
+- ID
+- Photo
+- Schedule
+- Operating hours
 <br><br>
 
-## 3. Comentários sobre o código
+## 3. Comments of the Code
 <p align="justify">
-    O código ainda não possui responsividade, apenas a estrutura do site e uma estilização compatível com desktops tradicionais.
-    Como o código foi feito em Vue não tivemos grandes dificuldades exceto para aprender como utilizava, e para realizar o uso do localStorage, porem uma vez compreendido esses conceitos, a escrita do código foi apenas trabalhosa pela enorme quantidade de scripts a serem feitos.
+    The code doesn't have responsiveness yet, only the site's structure and styling are compatible with traditional desktops.
+    Since the code was developed in Vue, we didn't face significant difficulties apart from learning how to use it and using localStorage. However, once these concepts were understood, writing the code was mostly laborious due to the large number of scripts that needed to be created.
 </p><br>
 
-## 4. Plano de teste
+## 4. Test Plan
 <p align="justify">
-    O plano de teste é constituído em testar o site enquanto ele é produzido, usando navegadores como Google Chrome, Firefox e Brave.
+    The testing plan consists of testing the site as it's being developed, using browsers like Google Chrome, Firefox, and Brave.
 </p><br>
 
-## 5. Resultados dos testes
+## 5. Test Results
 <p align="justify">
-    Ele apresenta resultado satisfatório, ainda não apresentando responsividade (dado que ainda não foi implementada), porém há uma integração entre todas as abas de forma que tanto o  cliente quanto o administrador não caiam em páginas "vazias"
+    It shows satisfactory results, not yet displaying responsiveness (as it hasn't been implemented yet), but there's integration among all tabs so that both the client and the administrator don't encounter "empty" pages.
 </p><br>
 
 ## 6. Building
@@ -164,19 +164,19 @@ As funcionalidades visadas pelo nosso site são:
 cd site
 ```
 
-#### Instalação de Dependências:
+#### Installing Dependencies:
 
 ```
 npm install
 ```
 
-#### Compilação no Modo de Desenvolvimento:
+#### Compiling in Development Mode:
 
 ```
 npm run serve
 ```
 
-#### Compilação e Minificação para Produção:
+#### Compiling and Minifying for Production:
 
 ```
 npm run build
@@ -188,26 +188,26 @@ npm run build
 cd server
 ```
 
-#### Instalação de Dependências:
+#### Installing Dependencies:
 
 ```
 npm install
 ```
 
-#### Inicialização do servidor
+#### Server Initialization
 
 ```
 npm start
 ```
 
-## 7. Problemas
+## 7. Problems
 <p align="justify">
-    Os maiores problemas foram o aprendizado da estrutura do vue e o gerenciamento do local storage (armazenamento de contas, dados dos produtos, etc...) além do tempo necessário para fazer o cadastro de cada um dos produtos
+    The major problems were learning the Vue structure and managing local storage (storing accounts, product data, etc.), in addition to the time required to enter the details of each product.
 </p><br>
 
-## 8. Comentários
+## 8. Comments
 <p align="justify">
-    A segurança da aplicação foi completamente negligenciada por fins educativos. Para fins de produção, procure alternativas mais seguras.<br>
-    A ferramenta utilizada para o desenvolvimento dos mockups foi o Figma.
-    Para o desenvolvimento de scripts tais como, html, CSS, javascript, utilizamos o framework VueJS
+    Application security was completely neglected for educational purposes. For production purposes, look for more secure alternatives.<br>
+    The tool used for mockup development was Figma.
+    For scripting development, such as HTML, CSS, JavaScript, we used the VueJS framework.
 </p>
